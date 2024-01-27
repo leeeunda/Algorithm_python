@@ -72,7 +72,7 @@ insert_data(3,'다은')
 #[2] 데이터 삭제
 
 '''
-간단하게 원리 이해
+원리 이해
 
 katok[4]=None
 katok[4]=katok[5]
@@ -116,7 +116,7 @@ if __name__=="__main__": # 모듈이 아닌 파이썬 파일을 직접 실행했
             add_data(data)
             
         if (select==2):
-            pos=int(input("삽입할 위치를 입력하세요."))
+            pos=int(input("삽입할 데이터의 위치를 입력하세요."))
             data=input("삽입할 데이터를 입력하세요.")
             insert_data(pos,data)
             
